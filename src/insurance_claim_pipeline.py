@@ -7,7 +7,7 @@ Expected target column: OUTCOME
 Expected classes: 0 = No Claim, 1 = Claim
 
 Run:
-    python src/insurance_claim_modeling.py --data-path data/raw/car_insurance_claim.csv
+  python src/insurance_claim_pipeline.py --data-path data/raw/car_insurance_claim.csv
 """
 
 from __future__ import annotations
